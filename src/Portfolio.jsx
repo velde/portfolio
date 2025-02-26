@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// Creating the missing Card and Button components
+// Define the missing Card and Button components inside Portfolio.jsx
 const Card = ({ children }) => (
-  <div className="bg-gray-900 border-none shadow-md rounded-lg p-4">{children}</div>
+  <div className="bg-gray-900 border border-gray-700 shadow-md rounded-lg p-4">{children}</div>
 );
 
 const CardContent = ({ children }) => <div className="p-2">{children}</div>;
